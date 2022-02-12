@@ -44,6 +44,7 @@ for (const entry of walkSync(selectRoute)) {
     const absolutePath = Deno.cwd(fileName)
     const message = `${entry.path}, ${file.mtime?.toLocaleString()}, ${file.size} bytes`
 
+
     const dataFile = {
       id,
       fileName,
