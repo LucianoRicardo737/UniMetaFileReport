@@ -78,8 +78,6 @@ for (const entry of walkSync(selectRoute)) {
     } else {
       data.push(dataFile)
     }
-
-
   }
 }
 
