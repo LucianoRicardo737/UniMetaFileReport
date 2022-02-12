@@ -3,7 +3,7 @@ import { walkSync } from "https://deno.land/std@0.125.0/fs/mod.ts"
 
 const inputRoute = './'
 console.log('start')
-let selectRoute = prompt('select route (./)')
+let selectRoute = prompt('select route to scan (./)')
 console.log('Making json files...')
 let fileOutputRoute = prompt('Selec route file: (./)')
 let fileOutputName = prompt('File name: (output)')
